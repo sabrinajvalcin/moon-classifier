@@ -4,12 +4,26 @@ body {
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    height: 100vh;
+    
+}
+.top_heading {
+    color: aliceblue;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.userInterface{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
     width: 100vw;
+    margin-top: 5%;
 }
-#top_heading {
-    color:aliceblue;
+.notebook_link{
+    display: contents;
+    background-color: white;
+    white-space: break-spaces;
 }
 #getPredictions{
     background-color: #00628f;
@@ -46,7 +60,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 10px;
-    max-height: 50%;
+    max-height: 60%;
     overflow:scroll;
     width: 75%;
 }
@@ -78,4 +92,8 @@ p {
     width: 75%;
     align-items: center;
     justify-content: flex-start;
+}
+.notebook_link p{
+    background: aliceblue;
+    justify-content: center;
 }

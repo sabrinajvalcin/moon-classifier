@@ -8,16 +8,22 @@
         <title>Sky2</title>
     </head>
     <body>
-        <h1 id="top_heading">Sky:<br>Moon Classifier</h1>
-        <input type="file" accept="image/png, image/jpeg" id="real-file" hidden="hidden" multiple/>
-        <button type="button" id="custom-button">CHOOSE AN IMAGE(S) TO UPLOAD(PNG, JPG)</button>
-        <!--span id="custom-text">No file chosen, yet.</span-->
-        <div id = "preview"></div>
-        <!--button type="button" id="upload">READ & UPLOAD</button-->
-        <button type="button" id="getPredictions">GET PREDICTIONS</button>
-        <div id = "progress"></div>
-        <div id = "prediction"></div>
+        <div class="top_heading">
+            <h1>Sky: Moon Classifier</h1>
+        </div>
+        <div class="userInterface">
+            <input type="file" accept="image/png, image/jpeg" id="real-file" hidden="hidden" multiple/>
+            <button type="button" id="custom-button">CHOOSE AN IMAGE(S) TO UPLOAD(PNG, JPG)</button>
+            <!--span id="custom-text">No file chosen, yet.</span-->
+            <div id = "preview"></div>
+            <!--button type="button" id="upload">READ & UPLOAD</button-->
+            <button type="button" id="getPredictions">GET PREDICTIONS</button>
+            <div id = "progress"></div>
+            <div id = "prediction"></div>
+        </div>
+        <div class="notebook_link">
+            <p>To explore the how the model was created view the<a href =" "> notebook</a></p>
+        </div>
         <script src="./app.js" ></script>
-        
     </body>
 </html>
