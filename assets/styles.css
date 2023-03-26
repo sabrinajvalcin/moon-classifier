@@ -12,6 +12,7 @@ body {
     color: aliceblue;
     margin-top: 5%;
     padding-bottom: 5%;
+    text-align: center;
 }
 .userInterface{
     display:flex;
