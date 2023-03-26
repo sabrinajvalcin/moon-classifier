@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     
 }
 .top_heading {
@@ -21,8 +22,10 @@ body {
     margin-top: 5%;
 }
 .notebook_link{
-    display: contents;
-    background-color: white;
+    display: flex;
+    /* background-color: white; */
+    align-items: center;
+    justify-content: center;
 }
 #getPredictions{
     background-color: #00628f;
@@ -86,14 +89,17 @@ li {
     height: 60px;
     justify-content: space-between;
 }
-p {
+.preview p {
     display: flex;
     width: 75%;
     align-items: center;
     justify-content: flex-start;
+    overflow: scroll;
+    margin: 0;
+    font-size: smaller;
 }
 .notebook_link p{
     display: block;
     background: aliceblue;
-    justify-content: center;
+
 }
