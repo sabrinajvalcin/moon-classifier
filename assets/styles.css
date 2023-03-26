@@ -23,7 +23,6 @@ body {
 .notebook_link{
     display: contents;
     background-color: white;
-    white-space: break-spaces;
 }
 #getPredictions{
     background-color: #00628f;
@@ -94,6 +93,7 @@ p {
     justify-content: flex-start;
 }
 .notebook_link p{
+    display: block;
     background: aliceblue;
     justify-content: center;
 }
