@@ -8,6 +8,9 @@ body {
     height: 100vh;
     width: 100vw;
 }
+#top_heading {
+    color:aliceblue;
+}
 #getPredictions{
     background-color: #00628f;
     border: 1px solid #000;
